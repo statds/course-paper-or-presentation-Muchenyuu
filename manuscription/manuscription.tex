@@ -7,10 +7,7 @@
 % highlighting hyper links
 \usepackage[colorlinks=true, citecolor=blue]{hyperref}
 
-
-
 %% meta data
-
 \title{Data analytics effects in Baseball}
 \author{Chenyu Mu\\
   Department of Statistics\\
@@ -34,30 +31,47 @@ Sport psychology, an interdisciplinary field integrating concepts from both psyc
 Its primary focus is to comprehend and optimize the psychological components that affect an athlete's mindset, emotions, and conduct, ultimately aiming to elevate their performance.
 Now, let's explore specific key domains within sport psychology that exert significant influence on baseball players.
 Baseball was selected as the focal sport due to its comprehensive nature, allowing for an analysis of nearly every facet of the game, except for the mental readiness of the player upon entering the field. 
-Previous studies in the field \citet*{Dalmass2018baseball} have provided valuable insights, and we seek to build upon their findings. 
+Previous studies in the field \citet{Dalmass2018baseball} have provided valuable insights, and we seek to build upon their findings. 
 
+We measure performance in these two dimensions: 
+\begin{enumerate}
+\item the player's subjective assessment of their performance. 
+\item the statistical analysis of the player's actual performance. Consequently, the research inquiries encompass the following:
+\end{enumerate}
+\begin{itemize}
+  \item Does sports psychology have an effect on a player's physical performance?
+  \item Does sports psychology have an effect on the way a player feels about his performance?
+  \item Can sports psychology be used to ensure that a player is almost always giving his best performance?
+\end{itemize}
 
-
-\paragraph{Specific Aims}
-We measure performance in these two dimensions: (1) the player's subjective assessment of their performance. 
-(2) the statistical analysis of the player's actual performance. Consequently, the research inquiries encompass the following:
-Does sports psychology have an effect on a player's physical performance?
-Does sports psychology have an effect on the way a player feels about his performance?
-Can sports psychology be used to ensure that a player is almost always giving his best performance?
-
+% roadmap
+The rest of the paper is organized as follows.
+The data will be presented in Section~\ref{sec:data}.
+The methods are described in Section~\ref{sec:meth}.
+The results are reported in Section~\ref{sec:resu}.
+A discussion concludes in Section~\ref{sec:disc}.
 
 
 \section{Data}
 \label{sec:data}
-The data is from UConn baseball 2023. Following are definitions we may use:
-**AB** at bats 
-**AVG**batting average 
-**BB**bases on balls 
-**ER**earned runs
-**H**hits; holds
-**K**killed 
-**OBP**on base percentage
-
+Following are definitions we may use:\\
+$AB$: At bats\\ 
+$AVG$: Batting average\\ 
+$H$: Hits\\
+$K$: Killed,Strikeout \\
+$HR$: Home Run\\
+$BABIP$: Batting Average on Balls in Play\\
+$SF$: sacrifice flies\\
+\begin{equation}
+  \label{eq:AVG}
+  AVG = H/AB,
+\end{equation}
+which means the total number of hits divided by the total number of at-bats
+\begin{equation}
+  \label{eq:BABIP}
+  BABIP = (H - HR) / (AB - K - HR - SF),
+\end{equation}
+which states that a batter's average for balls that are put in play (excludes strikeouts, home runs, and sacrifice flies)
 
 
 \section{Methods}
@@ -73,6 +87,9 @@ These results were evaluated as t-tests for differences in mean between groups.M
 These limitations encompassed various factors, including but not restricted to the sample size, the participants' in-season playing time,
 and the number of at-bats and innings pitched. The relatively small sample size utilized in the study, which significantly impacted the practicality of the results.
 
+
+\section{Discussion}
+\label{sec:disc}
 
 
 \bibliography{../manuscript/refs}

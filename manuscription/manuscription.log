@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.17)  29 OCT 2023 20:43
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.17)  30 OCT 2023 00:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -266,34 +266,33 @@ File: l3backend-xetex.def 2023-10-10 L3 backend support: XeTeX
 \g__pdf_backend_object_int=\count290
 \g__pdf_backend_annotation_int=\count291
 \g__pdf_backend_link_int=\count292
-)
-No file manuscription.aux.
+) (./manuscription.aux)
 \openout1 = `manuscription.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 20.
-(c:/Users/molly/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ts1cmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 17.
+ (c:/Users/molly/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -336,22 +335,24 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: xetex.def on input line 149.
  (c:/Users/molly/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 20.
+Package hyperref Info: Link coloring ON on input line 17.
+ (./manuscription.out) (./manuscription.out)
 \@outlinefile=\write3
 \openout3 = `manuscription.out'.
 
 
 
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
-
-Package natbib Warning: Citation `Dalmass2018baseball' on page 1 undefined on input line 37.
+Package natbib Warning: Citation `Dalmass2018baseball' on page 1 undefined on input line 34.
 
 [1
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 57--65
 
-Package natbib Warning: Citation `Dalmass2018baseball' on page 2 undefined on input line 67.
+ []
+
+
+Package natbib Warning: Citation `Dalmass2018baseball' on page 2 undefined on input line 81.
 
 No file manuscription.bbl.
 
@@ -362,26 +363,16 @@ Package natbib Warning: There were undefined citations.
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-10-10>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `manuscription.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `manuscription.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  00BEDBD37550009F18824E8CADBEBACE;322.
+Package rerunfilecheck Info: File `manuscription.out' has not changed.
+(rerunfilecheck)             Checksum: A2DA40BC6B073A49D78286FDB82EC60D;415.
  ) 
 Here is how much of TeX's memory you used:
- 9761 strings out of 477165
- 152819 string characters out of 5810328
- 1926674 words of memory out of 5000000
- 31292 multiletter control sequences out of 15000+600000
- 559857 words of font info for 50 fonts, out of 8000000 for 9000
+ 9798 strings out of 477165
+ 153399 string characters out of 5810328
+ 1927674 words of memory out of 5000000
+ 31316 multiletter control sequences out of 15000+600000
+ 563267 words of font info for 62 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 72i,6n,79p,256b,326s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,6n,79p,256b,324s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on manuscription.pdf (2 pages).
