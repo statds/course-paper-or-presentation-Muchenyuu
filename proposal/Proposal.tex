@@ -1,0 +1,72 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage[margin = 1in]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{natbib}
+% highlighting hyper links
+\usepackage[colorlinks=true, citecolor=blue]{hyperref}
+
+
+
+%% meta data
+
+\title{Proposal: Data analytics effects in major league baseball}
+\author{Chenyu Mu\\
+  Department of Statistics\\
+  University of Connecticut
+}
+
+\begin{document}
+
+\maketitle
+
+
+\paragraph{Introduction}
+Baseball, spanning from the Civil War era to the Civil Rights movement and continuing through various historical epochs,
+serves as a mirror reflecting numerous facets of American life. This beloved sport is deeply intertwined with the nation's culture,
+economics, and technological progress. It has the power to catalyze movements, nurture a sense of pride, and even contribute to the healing of cities.
+The objective of this study aimed to assess the effectiveness of sports psychology. Baseball was selected as the focal sport due to its comprehensive nature,
+allowing for an analysis of nearly every facet of the game, except for the mental readiness of the player upon entering the field. Previous studies 
+in the field \citep[e.g.,][]{Dalmass2018baseball} have provided valuable insights, and we seek to build upon their findings. 
+
+
+
+\paragraph{Specific Aims}
+We measure performance in these two dimensions: (1) the player's subjective assessment of their performance. 
+(2) the statistical analysis of the player's actual performance. Consequently, the research inquiries encompass the following:
+Does sports psychology have an effect on a player's physical performance?
+Does sports psychology have an effect on the way a player feels about his performance?
+Can sports psychology be used to ensure that a player is almost always giving his best performance?
+
+
+
+\paragraph{Data}
+The data is from UConn baseball 2023. Following are definitions we may use:
+**AB** at bats 
+**AVG**batting average 
+**BB**bases on balls 
+**ER**earned runs
+**H**hits; holds
+**K**killed 
+**OBP**on base percentage
+
+
+
+\paragraph{Research Design and Methods}
+The study was designed as a two-sample experiment employing a differences-in-differences analysis approach.
+Participants were categorized into three positional groups and further divided into either control or experimental groups. 
+These results were evaluated as t-tests for differences in mean between groups.Method way\citep[e.g.,][]{Dalmass2018baseball}.
+
+
+
+\paragraph{Discussion}
+These limitations encompassed various factors, including but not restricted to the sample size, the participants' in-season playing time,
+and the number of at-bats and innings pitched. The relatively small sample size utilized in the study, which significantly impacted the practicality of the results.
+
+
+
+\bibliography{../manuscript/refs}
+\bibliographystyle{chicago}
+
+\end{document}
