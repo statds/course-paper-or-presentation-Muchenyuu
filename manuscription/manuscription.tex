@@ -31,7 +31,7 @@ Sport psychology, an interdisciplinary field integrating concepts from both psyc
 Its primary focus is to comprehend and optimize the psychological components that affect an athlete's mindset, emotions, and conduct, ultimately aiming to elevate their performance.
 Now, let's explore specific key domains within sport psychology that exert significant influence on baseball players.
 Baseball was selected as the focal sport due to its comprehensive nature, allowing for an analysis of nearly every facet of the game, except for the mental readiness of the player upon entering the field. 
-Previous studies in the field \citet{Dalmass2018baseball} have provided valuable insights, and we seek to build upon their findings. 
+Previous studies in the field \cite{Dalmass2018baseball} have provided valuable insights, and we seek to build upon their findings. 
 
 We measure performance in these two dimensions: 
 \begin{enumerate}
@@ -45,11 +45,11 @@ We measure performance in these two dimensions:
 \end{itemize}
 
 % roadmap
-The rest of the paper is organized as follows.
-The data will be presented in Section~\ref{sec:data}.
-The methods are described in Section~\ref{sec:meth}.
-The results are reported in Section~\ref{sec:resu}.
-A discussion concludes in Section~\ref{sec:disc}.
+The rest of the paper is organized as follows.\\
+The data will be presented in Section~\ref{sec:data}.\\
+The methods are described in Section~\ref{sec:meth}.\\
+The results are reported in Section~\ref{sec:resu}.\\
+A discussion concludes in Section~\ref{sec:disc}.\\
 
 
 \section{Data}
@@ -74,11 +74,22 @@ which means the total number of hits divided by the total number of at-bats
 which states that a batter's average for balls that are put in play (excludes strikeouts, home runs, and sacrifice flies)
 
 
+We can see the number of players in each team in Figure~\ref{fig:team}.
+\graphicspath{{images/}}
+
+\begin{figure}[tbp]
+  \centering
+  \includegraphics[width=\textwidth]{baseball team.pdf}
+  \caption{The number of players in each team in 2016 batting dataset}
+  \label{fig:team}
+\end{figure}
+
 \section{Methods}
 \label{sec:meth}
-The study was designed as a two-sample experiment employing a differences-in-differences analysis approach.
-Participants were categorized into three positional groups and further divided into either control or experimental groups. 
-These results were evaluated as t-tests for differences in mean between groups.Method way\citep[e.g.,][]{Dalmass2018baseball}.
+The research was structured as a two-sample experiment utilizing a differences-in-differences analysis method.
+The participants were classified into three positional groups and then subdivided into either control or experimental groups. 
+The outcomes were assessed using t-tests to analyze the differences in means between the groups.Method way\cite*{Dalmass2018baseball}.
+
 
 
 
@@ -87,12 +98,34 @@ These results were evaluated as t-tests for differences in mean between groups.M
 These limitations encompassed various factors, including but not restricted to the sample size, the participants' in-season playing time,
 and the number of at-bats and innings pitched. The relatively small sample size utilized in the study, which significantly impacted the practicality of the results.
 
+\begin{table}[tbp]
+  \caption{The distribution of censored participants}
+  \label{tab:rv}
+\centering
+\begin{tabular}{rrrr}
+  \toprule
+  Position & Assigned Group & Did Not Meet AB or IP & Did Not Play\\ 
+  \midrule
+Pitcher & Control & 3 & 1\\
+Pitcher & Experiment & 2 & 1\\
+Infield & Control & 1 & 0 \\
+Infield & Experiment & 2 & 2\\
+Outfield & Control & 1 & 0\\
+Outfield & Experiment & 1 & 0\\
+  \bottomrule
+\end{tabular}
+\end{table}
 
 \section{Discussion}
 \label{sec:disc}
 
 
-\bibliography{../manuscript/refs}
-\bibliographystyle{chicago}
+
+
+\begin{thebibliography}{9}
+
+  \bibliography{refs.bib}
+  \bibliographystyle{chicago}
+\end{thebibliography}
 
 \end{document}
