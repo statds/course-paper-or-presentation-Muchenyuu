@@ -1,18 +1,13 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
 
-\bibitem[\protect\citeauthoryear{Dalmass}{Dalmass}{2018}]{Dalmass2018baseball}
-Dalmass, K. (2018).
-\newblock The psychology of baseball: How the mental game impacts the physical game.
-\newblock {\em Honors Scholar Theses\/}~{\em 578}, 99.
-
-\bibitem[\protect\citeauthoryear{Wyers}{Wyers}{2009a}]{web:Wyers:Part1}
-Wyers, C. (2009a).
-\newblock How to measure a player's value part 1 | the hardball times.
+\bibitem{web:Wyers:Part1}
+Colin Wyers.
+\newblock How to measure a player's value part 1 | the hardball times, 2009.
 \newblock Last accessed 22 January 2009.
 
-\bibitem[\protect\citeauthoryear{Wyers}{Wyers}{2009b}]{web:Wyers:Part2}
-Wyers, C. (2009b).
-\newblock How to measure a player's value part 1 | the hardball times.
+\bibitem{web:Wyers:Part2}
+Colin Wyers.
+\newblock How to measure a player's value part 1 | the hardball times, 2009.
 \newblock Last accessed 29 January 2009.
 
 \end{thebibliography}
