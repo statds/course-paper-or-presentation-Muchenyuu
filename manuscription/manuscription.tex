@@ -4,11 +4,11 @@
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{natbib}
-% highlighting hyper links
+\usepackage{url}
 \usepackage[colorlinks=true, citecolor=blue]{hyperref}
 
 %% meta data
-\title{Data analytics effects in Baseball}
+\title{Data analytics effects in Baseball player's value}
 \author{Chenyu Mu\\
   Department of Statistics\\
   University of Connecticut
@@ -19,38 +19,65 @@
 \maketitle
 
 \begin{abstract}
-  Over the past two decades, there has been a notable resurgence in the utilization of data analytics across professional sports, businesses, and governmental sectors.
-  This article will delve into an in-depth analysis of the myriad factors that potentially impact baseball players while they are actively engaged in the game. 
-  The study aims to explore and elucidate the diverse elements that might influence and shape the performance, strategies, and outcomes within the realm of baseball. 
-  \end{abstract}
+  Over the past two decades, there has been a notable resurgence in the utilization of data analytics across 
+  professional sports, businesses, and governmental sectors. We can measure the value of baseball players through
+  data analysis, which is very important to the success of the team. Therefore, this article will study how to 
+  measure the value of a player and will delve into an in-depth analysis of the myriad factors that potentially 
+  impact baseball players while they are actively engaged in the game. 
+\end{abstract}
 
 
 \section{Introduction}
 \label{sec:intro}
-Sport psychology, an interdisciplinary field integrating concepts from both psychology and sports science, has become a fundamental element in enhancing athletic performance across a spectrum of sports, baseball included.
-Its primary focus is to comprehend and optimize the psychological components that affect an athlete's mindset, emotions, and conduct, ultimately aiming to elevate their performance.
-Now, let's explore specific key domains within sport psychology that exert significant influence on baseball players.
-Baseball was selected as the focal sport due to its comprehensive nature, allowing for an analysis of nearly every facet of the game, except for the mental readiness of the player upon entering the field. 
-Previous studies in the field \cite*{Dalmass2018baseball} have provided valuable insights, and we seek to build upon their findings. 
+  
+The surge in the availability of data, from player statistics to in-game metrics, has ushered in a new era in 
+baseball analysis. This wealth of information has not only enriched the fan experience but has also become an 
+invaluable tool for teams and analysts seeking a competitive edge. So how do we measure the value of players in
+a statistical way?Before discussing how to measure value, we need to discuss the definition of value. 
+According to the definition in Wyers' article "How to measure a player's value"\cite*{web:Wyers:Part1}, we define 
+the value of a player as "A player's value is his contributions to his team based upon his on-field performance 
+(hitting, running, fielding and pitching) in a neutral context.This definition excludes qualities like leadership 
+and character, which would be horrific to see a statistical measure of performance attempt to portray! That's not 
+to argue these things don't matter; they just aren't easily quantified. In addition, according to Wyers' approach, 
+we need to emphasize that this is a neutral environment. First, we want to quantify a player's performance apart 
+from his teammates' - a player is no better or worse on a good or terrible team. Besides, we aim to separate a 
+player from his surroundings. A terrible pitcher does not become a better pitcher by pitching in Petco Park, and 
+a poor hitter does not become a better pitcher by hitting in Coors Field.\\
 
-We measure performance in these two dimensions: 
+We should realize there are some limits may effects our statistical model:
 \begin{enumerate}
-\item the player's subjective assessment of their performance. 
-\item the statistical analysis of the player's actual performance. Consequently, the research inquiries encompass the following:
+\item The data itself. Errors can occur, including transcription errors and similar inaccuracies. Additionally, 
+certain determinations rely on borderline judgments, such as discerning whether an event constitutes a hit or an
+error, categorizing a hit as a fly ball or a line drive, and determining whether a pitch is a ball or a strike.
+
+\item Critical information might be omitted from the data, necessitating inference or deliberate oversight. 
+Questions such as the shortstop's positioning on the field or whether the coach executed a hit-and-run strategy may 
+not be explicitly recorded and might require additional interpretation or intentional exclusion.
+
+\item Developing a model without a grasp of the fundamental principles poses challenges. The inherent value
+difference between a double and a sacrifice fly in baseball may be intuitive, but expressing and capturing this 
+nuanced understanding can be particularly challenging for a linear regression model.
+
+\item The model overlooks certain factors, such as the quality of the opponent, platoon advantage, and other 
+relevant considerations.
+
+\item Neglecting to consider subtle distinctions between players, such as the influence of a ballpark on the home 
+run rates of individuals like Barry Bonds and Juan Pierre, can lead to oversights in the analysis.
 \end{enumerate}
-\begin{itemize}
-  \item Does sports psychology have an effect on a player's physical performance?
-  \item Does sports psychology have an effect on the way a player feels about his performance?
-  \item Can sports psychology be used to ensure that a player is almost always giving his best performance?
-\end{itemize}
+
+
+在添加一些部分在这
+
+\cite*{web:Wyers:Part2}
 
 % roadmap
-The rest of the paper is organized as follows.\\
-The data will be presented in Section~\ref{sec:data}.\\
-The methods are described in Section~\ref{sec:meth}.\\
-The results are reported in Section~\ref{sec:resu}.\\
+The rest of the paper is organized as follows.
 
+The data will be presented in Section~\ref{sec:data}.
 
+The methods are described in Section~\ref{sec:meth}.
+
+The results are reported in Section~\ref{sec:resu}.
 
 \section{Data}
 \label{sec:data}
@@ -86,10 +113,9 @@ We can see the number of players in each team in Figure~\ref{fig:team}.
 
 \section{Methods}
 \label{sec:meth}
-The research was structured as a two-sample experiment utilizing a differences-in-differences analysis method.
-The participants were classified into three positional groups and then subdivided into either control or experimental groups. 
-The outcomes were assessed using t-tests to analyze the differences in means between the groups.Method way\cite*{Dalmass2018baseball}.
-
+We will use UConn baseball team data for our research and use Wyers's method \citet*{web:Wyers:Part2} that "
+A player's value is essentially an average team's runs or wins with that player, minus their runs or wins without 
+that player."
 
 
 
@@ -126,12 +152,7 @@ an effect size of 0.5, and a power of 0.8. Implementing this study on a larger s
 would have made achieving the required sample size more feasible. 
 
 
-
-
-
-
-
-\bibliographystyle{chicago} % We choose the "plain" reference style
-\bibliography{refs} % Entries are in the refs.bib file
+\bibliographystyle{plain}
+\bibliography{refs}
 
 \end{document}
