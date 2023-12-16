@@ -140,7 +140,34 @@ ideal to utilize bespoke linear weights dependent on the season for a player val
 factor to consider is baseline—while all dynamic run estimators provide absolute runs, certain linear run estimators
 provide runs above average instead. 
 
-Following are definitions we may use:
+Measuring playing time in baseball isn't always straightforward. At the team level, the fundamental unit is the
+out, crucial for both offense and defense. Pitchers and fielders often use outs, games, or innings, but when 
+it comes to batting, plate appearances or at-bats are commonly used. The challenge arises as plate appearances 
+are not fixed, impacting a player's contribution.Most run estimators focus on runs per out,
+emphasizing the importance of using the correct unit of playing 
+time. Linear run estimators typically use plate appearances. It's crucial to recognize that comparing players 
+should consider the same number of batting outs, not plate appearances.To make it more relatable, 
+some analysts convert runs per out to runs per plate appearance. This simplification 
+helps those more accustomed to plate appearances as the unit of playing time for hitters. The key is precision 
+when comparing and evaluating player performance metrics.
+
+In sabermetrics, it's widely accepted that a player's runs contribution should be separated from the 
+impact of their home park. The debate revolves around using either simple, run-based park factors or more 
+detailed component park factors.
+
+For a value metric, the general preference is for run-based park factors. This adjustment accounts 
+for the fact that the value of a run can vary based on the ballpark - for instance, a run in Coors is 
+considered less valuable than a run in Petco. While there are situations where component park factors might 
+be relevant, they don't necessarily provide a "more accurate" assessment of a player's value, especially 
+concerning explaining team wins. The choice between the two depends on the specific analysis goals and nuances.
+
+Fielding value is more difficult to quantify because, while there is only one hitter, the defense has nine 
+fielders on every play. It is quite simple to determine who made a specific play, but it is frequently 
+difficult to determine who should be liable for a ball when no play is made. Various defensive metrics attempt 
+to determine who is responsible for a ball in play. In general, the better the outcomes, the more detailed the 
+underlying dataset.
+
+Table~\ref*{tab:discription}are definitions we may use 
 \begin{table}[htbp]
   \caption{Baseball Batting Statistics}
   \label{tab:discription} 
