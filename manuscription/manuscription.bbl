@@ -1,5 +1,14 @@
 \begin{thebibliography}{1}
 
+\bibitem{web:data}
+{FanGraphs Baseball}.
+\newblock Major league leaderboards - 2008 - batting | fangraphs baseball.
+\newblock FanGraphs, 2008.
+
+\bibitem{web:Studeman2007Field}
+Dave Studeman.
+\newblock Fielding stats at the hardball times| the hardball times, 2007.
+
 \bibitem{web:Wyers:Part1}
 Colin Wyers.
 \newblock How to measure a player's value part 1 | the hardball times, 2009.
@@ -7,7 +16,12 @@ Colin Wyers.
 
 \bibitem{web:Wyers:Part2}
 Colin Wyers.
-\newblock How to measure a player's value part 1 | the hardball times, 2009.
+\newblock How to measure a player's value part 2 | the hardball times, 2009.
+\newblock Last accessed 29 January 2009.
+
+\bibitem{web:Wyers:Part3}
+Colin Wyers.
+\newblock How to measure a player's value part 3 | the hardball times, 2009.
 \newblock Last accessed 29 January 2009.
 
 \end{thebibliography}
