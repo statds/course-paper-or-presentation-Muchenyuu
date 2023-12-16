@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.7)  16 DEC 2023 10:46
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.7)  16 DEC 2023 11:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -365,10 +365,6 @@ Overfull \hbox (37.90471pt too wide) detected at line 252
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `manuscription.out' has not changed.
 (rerunfilecheck)             Checksum: D8413869E9BDA114FB636E89A23CE742;415.
  ) 
